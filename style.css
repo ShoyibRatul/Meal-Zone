@@ -22,11 +22,45 @@ body
 
 h1
 {
-    font-size: 35px;
+    font-size: 70px;
     font-weight: 800;
+    width: 100%;
 }
 
 .healthy
 {
-    margin: 60px;
+    margin: 30px;
+    width: 100%;
+}
+
+
+.image1
+{
+    width: 70%;
+    padding-left: 5%;
+}
+
+
+section
+{
+    display: flex;
+    width: 100%;
+}
+
+
+.one
+{
+    background-image: url(frame/4.jpg);
+    background-repeat: no-repeat;    
+}
+
+
+.order-button
+{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgb(43, 157, 250) , rgb(32, 219, 210));
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-weight: 700;
 }
