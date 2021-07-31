@@ -1,0 +1,32 @@
+body
+{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+.banner
+{
+    background-color: rgb(242, 243, 243);
+}
+
+#logo1
+{
+    margin-left: 12px;
+}
+
+#hungry
+{
+   color: chocolate; 
+}
+
+
+h1
+{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.healthy
+{
+    margin: 60px;
+}
