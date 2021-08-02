@@ -20,47 +20,139 @@ body
 }
 
 
-h1
+.h1-mod1
 {
     font-size: 70px;
     font-weight: 800;
     width: 100%;
 }
+h1
+{
+    font-size: 35px;
+    color: #282b30;
+}
 
-.healthy
+.heading-description
 {
     margin: 30px;
-    width: 100%;
+    width: 90%;
+    margin-left: 8%;
 }
 
 
 .image1
 {
-    width: 70%;
+    width: 80%;
     padding-left: 5%;
 }
 
 
-section
+.flexible
 {
     display: flex;
-    width: 100%;
 }
 
 
-.one
+.background-one
 {
-    background-image: url(frame/4.jpg);
-    background-repeat: no-repeat;    
+    background-image: url(frame/1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 
-.order-button
+.button
 {
     text-decoration: none;
     color: white;
     background-image: linear-gradient(rgb(43, 157, 250) , rgb(32, 219, 210));
-    padding: 10px 30px;
-    border-radius: 6px;
+    padding: 10px 20px;
+    border-radius: 20px;
     font-weight: 700;
+}
+
+
+.background-two
+{
+    background-image: url(frame/5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.recipies-ti
+{
+    text-align: center;
+}
+
+
+.button1
+{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgb(223, 35, 10) , rgb(138, 5, 98));
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+
+.food
+{
+    border-radius: 15px;
+}
+
+
+.bg
+{
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px grey;
+    margin: 45px;
+    padding: 25px;
+}
+
+
+.food-position
+{
+    margin-left: 65px;
+}
+
+
+.bg1
+{
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px grey;
+    margin-left: 105px;
+    margin-right: 135px;
+    padding: 25px;
+
+}
+
+
+.sm
+{
+    padding:  30px 250px 30px;
+}
+
+
+.zone
+{
+    color: palevioletred;
+}
+
+
+.ending
+{
+    text-align: center;
+    background-color: rgb(223, 216, 230);
+}
+
+
+footer
+{
+    text-align: center;
 }
